@@ -1,0 +1,150 @@
+body
+{
+	background-image: url();
+}
+.main-div
+{
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 0px 10%;
+}
+.Welcome
+{
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: space-between;
+	background-image: linear-gradient(to right, rgb(55, 59, 64), rgb(0, 0, 0));
+}
+.Welcome div
+{
+	margin-top: 5%;
+	text-align: center;
+	font-family: cursive;
+}
+.transformed
+{
+	transform: rotate(360deg);
+	transition-duration: 1s;
+}
+.nav-item a
+{
+	color: white;
+}
+
+.social-media
+{
+	align-items: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.social-media li
+{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h3
+{
+	color: white;
+	opacity: 0.7;
+	font-size: 200%;
+}
+
+ul li
+{
+	display: inline-block;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.7;
+  width: 80px;
+  font-size: 60px;
+}
+
+
+
+/*.navbar
+{
+	display: grid;
+	background-image: linear-gradient(to left, rgb(55, 59, 64), rgb(0, 0, 0));	
+}*/
+.links
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	align-content: grid-end;
+}
+.links a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	font-family: cursive;
+}
+.links a:hover
+{
+	opacity: 0.7;
+ 	width: 150%;
+}
+
+
+
+.about
+{
+	display: grid;
+	margin-top: 5%;
+}
+.para-span
+{
+	border-bottom: solid white 1px;
+	font-family: cursive;
+	font-size: 200%;
+	color: white;
+	opacity: 0.7;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: -5%;
+}
+.Intro
+{
+	width: 90%;
+	background-color: black;
+}
+.Intro p
+{
+	font-family: cursive;
+	font-size: 150%;
+	color: white;
+	padding: 10%;
+	justify-content: center;
+}
+.about img
+{
+	border-radius: 50%;
+	height: 500px;
+	
+}
+
+.projects
+{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.project_container
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	display: in
+
+}
+.projects_container
+{
+	display: grid;
+	grid-template-columns:auto auto;
+}
